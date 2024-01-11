@@ -1,5 +1,7 @@
 # Duplicate Files Remover
 
-Given 2 directories, dir1 and dir2. If any file exists in both directories (recursively as well), delete that file from dir2.
+Given any number of directories.
 
-2 Files are same ==> Both files have the same content (Name can be different)
+Remove duplicate files in all file trees in the given directories.
+
+2 Files are considered same if their SHA-256 Checksum is same.
